@@ -45,7 +45,7 @@ export default function App() {
 
         async function createNewNote() {
             const newNote = {
-                body: `Note ${notes.length + 1}`,
+                body: `New note`,
                 createdAt: Date.now(),
                 updatedAt: Date.now()
             }
